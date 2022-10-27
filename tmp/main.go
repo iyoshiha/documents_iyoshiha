@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
-	a "prac/prac/pra"
+	"prac/pra"
 )
 
 func main() {
-	fmt.Println(a.gvar())
+	pra.Gvar(10)
+	pra.Gvar(22)
 }
