@@ -2,9 +2,9 @@ package pra
 
 import "fmt"
 
-var globalVariable int = 5
+var globalVariable int = 30
 
-func gvar(g int ) (int){
+func Gvar(g int ) (int){
 	fmt.Println("******* start gvar *******")
 	fmt.Println("bafore assigning a value to globalVariable =", globalVariable) 
 
