@@ -1,0 +1,16 @@
+package pra
+
+import "fmt"
+
+var globalVariable int = 5
+
+func gvar(g int ) (int){
+	fmt.Println("******* start gvar *******")
+	fmt.Println("bafore assigning a value to globalVariable =", globalVariable) 
+
+	globalVariable = g
+
+	fmt.Println("after assigning a value to globalVariable =", globalVariable) 
+	fmt.Println("****** end gvar ******")
+	return globalVariable
+}
